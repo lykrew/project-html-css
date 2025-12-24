@@ -15,14 +15,8 @@ body {
     gap: 20px;
 }
 
-.logo {
-    max-width: 50px;
-    max-height: 42px;
-    display: block;
-    margin-left: auto; 
-    margin-right: auto;
+.header__logo {
     margin-top: 19px;
-    margin-bottom: 19px;
 }
 
 .title {
@@ -35,8 +29,87 @@ body {
     margin-bottom: 12px;
 }
 
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 .card {
     display: flex;
     flex-direction: column;
+    gap: 9px;
+}
+
+.card-image {
     
 }
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.card-title {}
+
+.price {
+    color: #489DFF;
+}
+
+.card-btn {
+    margin-top: 10px;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 48px;
+    width: 131px;
+    border-radius: 10px;
+    background-color: #489DFF;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+.logo {
+    max-width: 50px;
+    max-height: 42px;
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
+    margin-top: 19px;
+    margin-bottom: 19px;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer span {
+    color: #489DFF;
+}
+
+.footer-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
